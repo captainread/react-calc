@@ -1,10 +1,13 @@
+import { CalculatorContext } from "../context/CalculatorContext";
 import { Textfit } from "react-textfit";
+import { useContext } from "react";
 
 const Display = () => {
+  const { calcMemory } = useContext(CalculatorContext);
 
   return (
-    <Textfit data-testid="display" id="display" mode={"single"} max={60}>
-      012345
+    <Textfit id="display" mode={"single"} max={80}>
+      {calcMemory.num ? calcMemory.num : calcMemory.result}
     </Textfit>
   );
 };
