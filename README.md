@@ -24,10 +24,10 @@ Basic styling using Sass (SCSS).
 
 
 
-### Packages
+## Packages
 
-[React Textfit](https://www.npmjs.com/package/react-textfit)
-[Jest DOM](https://www.npmjs.com/package/@testing-library/jest-dom)
+- [React Textfit](https://www.npmjs.com/package/react-textfit)
+- [Jest DOM](https://www.npmjs.com/package/@testing-library/jest-dom)
 
 -----
 

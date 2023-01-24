@@ -1,5 +1,9 @@
 const ButtonGrid = ({ children }) => {
-  return <div id="button-grid">{children}</div>;
+  return (
+    <div data-testid="buttongrid" id="button-grid">
+      {children}
+    </div>
+  );
 };
 
 export default ButtonGrid;
