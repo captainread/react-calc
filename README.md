@@ -16,10 +16,18 @@ Basic styling using Sass (SCSS).
 
 1. Clone the github repo.
 
-2. Inside the repo, run `npm start` to run the app in development mode. This should automatically open in your browser. If not, open [http://localhost:3000](http://localhost:3000) to view it.
+2. cd into the repo and run `npm install` to install dependencies.
 
-3. Use `npm test` to run Jest test suite.
+3. Inside the repo, run `npm start` to run the app in development mode. This should automatically open in your browser. If not, open [http://localhost:3000](http://localhost:3000) to view it.
 
+4. Use `npm test` to run Jest test suite.
+
+
+
+### Packages
+
+[React Textfit](https://www.npmjs.com/package/react-textfit)
+[Jest DOM](https://www.npmjs.com/package/@testing-library/jest-dom)
 
 -----
 
