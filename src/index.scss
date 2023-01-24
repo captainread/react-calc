@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+// SCSS variables
+$serif: "Libre Caslon Text", serif;
+$sans: "Roboto", sans-serif;
+$red: #a30133;
+$grey-red: #574142;
+$grey-red-light: #bfa5a5;
+$dark-cyan: #006568;
+$cyan: #009a9b;
+
+// CSS reset to remove browser padding etc.
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
