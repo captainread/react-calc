@@ -22,8 +22,6 @@ Basic styling using Sass (SCSS).
 
 4. Use `npm test` to run Jest test suite.
 
-
-
 ## Packages
 
 - [React Textfit](https://www.npmjs.com/package/react-textfit)
