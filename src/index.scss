@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 
 // SCSS variables
-$serif: "Libre Caslon Text", serif;
 $sans: "Roboto", sans-serif;
 $main-btn-color: #e4f0f5;
-$sign-btn-color: #cc90ff;
-$special-btn-color: #00c5a7;
+$sign-btn-color: #ffe45e;
+$special-btn-color: #f2555e;
+$background-color: #ffeed6;
+$font-color: #222;
 
 // CSS reset to remove browser padding etc.
 * {
@@ -16,11 +17,12 @@ $special-btn-color: #00c5a7;
 
 body {
   font-family: $sans;
+  color: $font-color;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #e8f3f1;
+  background-color: $background-color;
 }
 
 #container {
@@ -55,7 +57,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  // color: white;
   background-color: $main-btn-color;
   border: 1px solid white;
   font-size: 2rem;

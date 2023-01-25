@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,11 +7,12 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #222;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #e8f3f1;
+  background-color: #ffeed6;
 }
 
 #container {
@@ -59,9 +60,9 @@ body {
 }
 
 .special {
-  background-color: #00c5a7;
+  background-color: #f2555e;
 }
 
 .operation {
-  background-color: #cc90ff;
+  background-color: #ffe45e;
 }/*# sourceMappingURL=index.css.map */
