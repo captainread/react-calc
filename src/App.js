@@ -6,7 +6,7 @@ import CalculatorContext from "./context/CalculatorContext";
 import Container from "./components/Container";
 import Display from "./components/Display";
 
-const buttonVals = [
+export const buttonVals = [
   [7, 8, 9, "/"],
   [4, 5, 6, "-"],
   [1, 2, 3, "+"],
