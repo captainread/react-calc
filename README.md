@@ -2,7 +2,7 @@
 
 View a live version at:
 
-> Link tbd
+> https://captainread.github.io/react-calc
 
 ## Project summary
 
